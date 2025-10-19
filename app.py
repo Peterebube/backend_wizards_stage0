@@ -16,10 +16,10 @@ def profile():
     
     data = {
         "status": "success",
-        "User": {
+        "user": {
             "email": "Peterebubedike1@gmail.com",
             "name": "Peter Ebubedike",
-            "stack": "Python--Flask"
+            "stack": "Python/Flask"
         },
         "timestamp": datetime.now(timezone.utc).isoformat(),
         "fact": cat_fact
