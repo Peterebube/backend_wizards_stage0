@@ -17,3 +17,18 @@ The `/me` endpoint returns profile information along with a random cat fact fetc
   "timestamp": "2025-10-13T18:45:30.124Z",
   "fact": "Cats sleep for 70% of their lives."
 }
+
+# — How to run locally
+1-  Clone repository
+git clone https://github.com/Peterebube/backend_wizards_stage0.git
+
+2- create and activate avirtual environment
+3 - install dependencies
+4- Run the server 
+5- Test the endpoint (Visit http://127.0.0.1:500/me)
+
+# - List of dependencies
+-Flask
+-requests
+-gunicorn
+-requirements.txt
